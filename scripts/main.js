@@ -4470,7 +4470,7 @@ const memeMaker = async () => {
         } else {
       document.getElementById("meme").innerHTML = "Loading!!";
     const configuration = new Configuration({
-        apiKey: "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",
+        apiKey: null,   // check src/main.js
       });
       const openai = new OpenAIApi(configuration);
     
