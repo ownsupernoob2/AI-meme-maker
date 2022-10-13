@@ -1,4 +1,3 @@
-
 # Import them
 import json
 from serpapi import GoogleSearch
@@ -11,8 +10,8 @@ import textwrap as tw
 
 # Create meme prompt
 
-# (This is Mina API key please don't get the account terminated)
-openai.api_key = "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"  
+# (This is Mina API key, ask him for permission)
+openai.api_key = null  
 
 # The prompt that the AI will use
 prompt=(input("Make a meme caption about: "))
@@ -50,7 +49,7 @@ else :
   
 # serpapi params
 params = {
-  "api_key": "bb943b6380ad5f771b8b00885027bdfd6ee6f65a1870fc76010c52081aeb04d0",        # your serpapi api key
+  "api_key": null,        # Ask Mina for the API key.
   "engine": "google",               
   "q": prompt,   
   "hl": "en"                        
