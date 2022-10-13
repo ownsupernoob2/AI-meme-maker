@@ -53,7 +53,8 @@ const memeMaker = async () => {
         } else {
       document.getElementById("meme").innerHTML = "Loading!!";
     const configuration = new Configuration({
-        apiKey: "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",
+        apiKey: null, 
+        // personally ask Mina for his API key because he can't share it here.
       });
       const openai = new OpenAIApi(configuration);
     
