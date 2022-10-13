@@ -1,0 +1,21 @@
+{
+  "name": "ai-meme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel scripts -d lib"
+  },
+  "author": "Mina, Jonathan, Joshua, Yoga, Eian",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.1.2",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "cheerio": "^1.0.0-rc.12",
+    "google-search-results-nodejs": "^2.1.0",
+    "openai": "^3.0.0",
+    "profanity-js": "^0.1.4"
+  }
+}
