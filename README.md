@@ -25,11 +25,11 @@ An AI that makes meme created by the Programming Team over at Blimp Academy.
 
 3. This will have to run this script over and over everytime so becareful because I myself keep forgeting to use it.
 
-# But why?
+## But why?
 
 You see browsers don't support `require()` so *browserify* will convert it so the browser understand.
 
-# You also might be asking why is there a lib file?
+## You also might be asking why is there a lib file?
 
 It is there because I'm too lazy to delete it. It is a conversion from ES6 to ES5 because most browsers can't support ES6 fully.
 But I kept having errors because *browserify* doesn't work well when you turn it into ES5.
