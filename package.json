@@ -13,9 +13,9 @@
     "axios": "^1.1.2",
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
+    "bad-words": "^3.0.4",
     "cheerio": "^1.0.0-rc.12",
     "google-search-results-nodejs": "^2.1.0",
-    "openai": "^3.0.0",
-    "profanity-js": "^0.1.4"
+    "openai": "^3.0.0"
   }
 }
